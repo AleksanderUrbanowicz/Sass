@@ -1,4 +1,5 @@
 $light-color: #990000;
+$primary-color: #0e8f7d;
 $font-stack:  Arial, Helvetica, sans-serif;
 * {
 box-sizing: border-box;
@@ -10,4 +11,15 @@ body{
     background-color: $light-color;
     font-family: $font-stack;
     line-height: 1.6;
+}
+
+.showcase-content{
+    background-color: $primary-color;
+    color: #fff;
+    height: 600px;
+}
+
+.container{
+    max-width: 1100px;
+    overflow: auto;
 }
